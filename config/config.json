@@ -1,0 +1,23 @@
+{
+    "PATHS": {
+        "RAW_DATA": "../data/raw_data",
+        "ADDITIONAL_RAW_DATA": "../data/raw_additional_data",
+        "PROCESSED_DATA": "../data/processed_data",
+        "MODELS_DIR": "../training/saved_models",
+        "IMAGES_DIR": "../training/generated_images",
+        "LOGS": "../logs"
+    },
+    "SAVE_INTERVALS": {
+        "MODELS": 5,
+        "IMAGES": 1
+    },
+    "TRAINING": {
+        "IMAGE_SIZE": [160, 128],
+        "LATENT_DIM": 100,
+        "TRAIN_RATIO_THRESHOLD": 0.3,
+        "LEARNING_RATES": {
+            "GENERATOR": 0.0001,
+            "DISCRIMINATOR": 0.0001
+        }
+    }
+}
