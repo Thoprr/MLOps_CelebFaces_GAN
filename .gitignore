@@ -1,0 +1,8 @@
+# Ignore the data folder at the root of the project
+/data/
+
+# Ignore the Python virtual environment directory
+.venv/
+
+# Ignore all __pycache__ folders at any level in the project
+**/__pycache__/
